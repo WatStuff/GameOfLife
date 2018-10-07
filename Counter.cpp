@@ -1,4 +1,4 @@
-int counter(plane[]){
+int counter(plane[][],columnas,filas){
 
 	int alive=0;
 		for(int j=0;j<columnas;j++){
