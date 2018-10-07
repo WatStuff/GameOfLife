@@ -1,4 +1,4 @@
-int counter(int plane[][],int point[], int length){
+int counter(int plane[][],int point[], int length[]){
 	filas = length[0]; columnas = length[1];
 	int alive=0;
 		for(int j=0;j<columnas;j++){
