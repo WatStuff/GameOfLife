@@ -1,6 +1,6 @@
 #include <iostream>
 #include <unistd.h>
-const int MAXx = 100;
+const int MAXx = 100;	///100x100 is the default size of the square
 using namespace std;
 
 
