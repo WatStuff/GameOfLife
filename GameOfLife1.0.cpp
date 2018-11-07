@@ -3,7 +3,6 @@
 const int MAXx = 100;	///100x100 is the default size of the square
 using namespace std;
 
-
 void show(int plane[][MAXx], int length[])
 {
 	for(int i = 0; i<length[0]; i++)
