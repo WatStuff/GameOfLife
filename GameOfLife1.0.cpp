@@ -63,6 +63,7 @@ int main()
 {
 	int filas, columnas,times;
 	cout<<"Write the number of rows: ";cin>>filas;
+	///cout<<"Write the number of columns: ";cin>>columnas;
 	cout<<"Write the number of iterations: ";cin>>times;
 	cout<<"The default time between each iteration is 1s"<<endl;
 	columnas = filas;
