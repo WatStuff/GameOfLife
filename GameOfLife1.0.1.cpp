@@ -4,7 +4,7 @@
 const int MAXx = 100;	///100x100 is the default size of the square
 using namespace std;
 
-bool extintion(int plane[][MAXx],int length[])
+bool extinction(int plane[][MAXx],int length[])
 {
 	for(int ii = 0; ii<length[0]; ii++)
 	{
@@ -130,7 +130,7 @@ int main()
 	show(plane,length);
 
 	///for(int iter = 0; iter<times; iter++)
-	while(extintion(plane,length)==false)
+	while(extinction(plane,length)==false)
 	{
 		for(int i = 0; i<filas; i++)
 		{
