@@ -1,6 +1,7 @@
 1.You write the number of rows(in this version the matrix's size is NxN; but if you want a rectangle, you only need to remove the comments in line 66 and comment the line 69)
-2.You write the number of iterations (the max is 100; if you need more, modify the constant MAXx in line 3)
+2.You write the number of iterations. On version 1.0.1 the iteration is until all cells die.
 3.You insert alive cells on the board.
 Instruction: + a b	(to insert an alive cell on the position [a,b]) 
 Instruction: - a b	(to remove an alive cell on the position [a,b])
+Instruction: %      (to insert an alive cell in a random point of the board)
 Instruction: /		(to start the game) 
