@@ -102,7 +102,7 @@ int main()
 	///cout<<"Write the number of columns: ";cin>>columnas;
 	cout<<"Write the time between each iteration: ";cin>>time;cout<<endl;
 	columnas = filas;
-	bool infinite = false;		///comment this line if you don't want to finish the programme when it gets into a one period loop.
+	bool infinite = false;		///comment this line if you don't want to finish the programme when it gets into a one-period loop.
 	int length[2], point[2];
 	length[0] = filas; length[1] = columnas;
 	int plane[filas][MAXx];
